@@ -1,3 +1,29 @@
 h1 {
-    color: red;
+    color: #FB4454;
+    background-color: #181721;
+    font-size: 50pt;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -10px -10px 20px -10px;
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: unset;
+    cursor: pointer;
+}
+
+.felso_valaszto_sor {
+    margin-left: -10px;
+    padding: 20px;
+    background-color: #d85d6d;
+}
+
+#kivalasztott {
+    background-color: #c4242c;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: underline;
+    font-weight: bold;
 }
