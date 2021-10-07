@@ -15,15 +15,19 @@ a:-webkit-any-link {
 }
 
 .felso_valaszto_sor {
-    margin-left: -10px;
+    margin-left: -4px;
     padding: 20px;
+    padding-bottom: 18px;
     background-color: #d85d6d;
+    border-bottom: 4px solid #d85d6d;
+    column-width: 100%;
+    text-align: center;
 }
 
 #kivalasztott {
     background-color: #c4242c;
     padding-left: 20px;
     padding-right: 20px;
-    text-decoration: underline;
     font-weight: bold;
+    border-bottom: 4px solid;
 }
