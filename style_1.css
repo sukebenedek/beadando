@@ -1,27 +1,41 @@
+@font-face {
+    font-family: valorant_font;
+    src: url(valorant_font/Valorant\ Font.ttf);
+
+}
+
 h1 {
     color: #FB4454;
     background-color: #181721;
-    font-size: 50pt;
+    font-size: 60pt;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-bottom: 20px;
-    margin: -10px -10px 20px -10px;
+    margin: -10px -10px 19px -10px;
+    font-family: valorant_font;
+
 }
 
 a:-webkit-any-link {
     color: black;
     text-decoration: unset;
     cursor: pointer;
+
 }
 
 .felso_valaszto_sor {
-    margin-left: -4px;
+    margin-left: -2px;
     padding: 20px;
     padding-bottom: 18px;
     background-color: #d85d6d;
     border-bottom: 4px solid #d85d6d;
-    column-width: 100%;
     text-align: center;
+    
+}
+
+.felso_valaszto_sor:hover{
+    background-color: #d44551;
+    border-color: #4d1f2e;
 }
 
 #kivalasztott {
@@ -30,4 +44,12 @@ a:-webkit-any-link {
     padding-right: 20px;
     font-weight: bold;
     border-bottom: 4px solid;
+
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #d85d6d;
+    padding-top: 40px;
+}
+
