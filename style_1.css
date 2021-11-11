@@ -29,12 +29,16 @@ a:-webkit-any-link {
     padding: 20px;
     padding-bottom: 18px;
     float: left;
+    margin-bottom: 10px;
+
+
 }
 
 .felso_valaszto_sor:hover{
     background-color: #d44551;
     border-bottom: 4px solid;
     border-color: rgb(56, 20, 20);
+
 }
 
 #kivalasztott {
@@ -45,29 +49,49 @@ a:-webkit-any-link {
     border-bottom: 4px solid;
 
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
     background-color: #d85d6d;
     padding-top: 40px;
+
 }
 
 body{
-    background-image: url(hatter.png)
+    background-image: url(hatter.png);
+    overflow-x: hidden;
+
 }
-h2{
+
+h3{
     text-decoration: unset;
     font-size: 14pt;
     font-weight: unset;
     padding-top: 10px;
     text-align: justify;
+
 }
+
+h2{
+    font-size: 30pt;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
 #felezo_elso{
-    width: 50%;
-    float:left;
-    clear: both;
-}
-#felezo_masodik{
+    width: 63%;
     float:right;
-    width: 49%;
+    margin-left: 10px;
+}
+
+#felezo_masodik{
+    width: 35%;
+    float:left;
+
+}
+
+hr{
+    border-color: black;
+
 }
