@@ -49,13 +49,17 @@ h4{
 
 }
 
-p{
+p, li{
     text-decoration: unset;
     font-size: 14pt;
     font-weight: unset;
     padding-top: 10px;
     text-align: justify;
     
+}
+
+li{
+    padding-top: 5px;
 }
 
 table {
@@ -94,6 +98,11 @@ a:-webkit-any-link {
     border-bottom: 4px solid;
     border-color: rgb(56, 20, 20);
 
+}
+
+.kiskep img{
+    float: right;
+    margin-right: 100px;
 }
 
 #kivalasztott {
