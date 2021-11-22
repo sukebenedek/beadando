@@ -49,6 +49,11 @@ h4{
 
 }
 
+h5{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
 p, li{
     text-decoration: unset;
     font-size: 14pt;
