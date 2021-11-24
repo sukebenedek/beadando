@@ -5,7 +5,6 @@
 }
 
 body{
-    /* background-image: url(hatter.png); */
     overflow-x: hidden;
     background: rgb(39,37,54);
 background: linear-gradient(90deg, rgba(39,37,54,1) 0%, rgba(120,19,19,1) 31%, rgba(196,36,44,1) 62%, rgba(251,68,84,1) 100%);
@@ -25,7 +24,7 @@ h1 {
     
 }
 
-h2{
+h2, ol li.h2szamok{
     text-decoration: none;
     font-size: 30pt;
     margin-bottom: 2px;
@@ -83,7 +82,13 @@ hr{
 
 }
 
-a:-webkit-any-link {
+/* számozott lista előtt lévő szám */
+ol li::marker, .vastag{
+    font-weight: bold;
+}
+
+/* kattintható link */
+a:-webkit-any-link { 
     color: black;
     text-decoration: unset;
     cursor: pointer;
@@ -110,7 +115,14 @@ a:-webkit-any-link {
 .kiskep img{
     float: right;
     margin-right: 80px;
+    
+}
 
+.palyakep{
+    background-color: #ecece4;
+    width: 768px;
+    float: right;
+    margin: 20px;
 }
 
 .kisfegyverkep{
@@ -119,6 +131,10 @@ a:-webkit-any-link {
     width: 320px;
     height: auto;
 
+}
+
+.h2szamok{
+    clear: both;
 }
 
 #kivalasztott {
@@ -151,4 +167,3 @@ a:-webkit-any-link {
     float:left;
 
 }
-
