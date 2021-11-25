@@ -137,6 +137,12 @@ a:-webkit-any-link {
     clear: both;
 }
 
+.terkep{
+    width: 1000px;
+    height: 420px;
+    margin-top: 20px;
+}
+
 #kivalasztott {
     background-color: #c4242c;
     padding-left: 20px;
@@ -149,11 +155,13 @@ a:-webkit-any-link {
 #linkszoveg{
     font-weight: bold;
     margin-bottom: 3px;
+
 }
 
 #link{
     text-decoration: underline;
     color: rgb(109, 109, 109);
+
 }
 
 #felezo_elso{
