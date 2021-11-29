@@ -36,7 +36,7 @@ h2, ol li.h2szamok{
 
 h3{
     text-decoration: none;
-    font-size: 24pt;
+    font-size: 25pt;
     font-weight: bold;
     margin-bottom: -10px; 
  
@@ -44,7 +44,7 @@ h3{
 
 h4{
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20pt;
     font-weight: bold;
 
 }
@@ -88,7 +88,7 @@ ol li::marker, .vastag{
 }
 
 /* kattintható link */
-a:-webkit-any-link { 
+a{ 
     color: black;
     text-decoration: unset;
     cursor: pointer;
@@ -112,9 +112,10 @@ a:-webkit-any-link {
 
 }
 
-.kiskep img{
-    float: right;
-    margin-right: 80px;
+.kiskep{
+    float: right; 
+    margin-right: 100px; 
+    margin-left: 10px;
     
 }
 
@@ -133,7 +134,7 @@ a:-webkit-any-link {
 
 }
 
-.h2szamok{
+.h2szamok, .clear{
     clear: both;
 }
 
@@ -174,4 +175,19 @@ a:-webkit-any-link {
     width: 35%;
     float:left;
 
+}
+
+#ml-10{
+    margin-left: -10px;
+}
+
+#jatekmodkep{
+    float: right; 
+    width: 29%; 
+    margin: 15px; 
+    margin-bottom: 0px;
+}
+
+#clear_l{
+    clear: left;
 }
